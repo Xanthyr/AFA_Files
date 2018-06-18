@@ -1,5 +1,6 @@
 
 def hex_gear(teeth)
+  prompt = "> "
     if teeth > 6
       puts "Oh wow, #{teeth} teeth is actually too many, this gear won't fit."
       return teeth
@@ -19,7 +20,7 @@ def hex_gear(teeth)
   \nYou have a range of gears that might fit. Pick from gears 1 through 10
 
   """
-
+prompt = "> "
 
   puts "\n\n\nYou're left with a large stack of similar looking mechanical parts"
   puts intro

@@ -1,8 +1,11 @@
+
+# Set input cursor to prompt player interaction
 def prompt
   print "> "
 end
 val_choice = ("1" || "2" || "3")
 
+# Spawning room post intro
 def start
 
 
@@ -21,7 +24,7 @@ Directly next to where you were sleeping there is a path that leads north and so
       3. Stand up
   """
 
-
+# Have a repeatable input to stay in a room until keywords are fufilled
   loop do
     options = "\nWhat would you like to do?
 
@@ -73,6 +76,7 @@ The sounds of the birds chirping shift into a more human sound, and is far close
    2. Investigate the source of the whistling
    3. Step into forest path
    """
+   # Have a repeatable input to stay in a room until keywords are fufilled
   loop do
       options = "\nWhat would you like to do?
 
@@ -115,11 +119,51 @@ After surviving your harrowing journey of two inches (finlevLewd) you find yours
 Looking around, other than the paths the trees continue on for as far as you can see.
 
 The large rock is just south of where you stand, wedged firmly between two heavy Redwood trunks.
-  To the west is your personal hobo camp.
+To the west is your personal hobo camp, but what catches your eye immediately is a giant mechanical door that you see stapled onto the large bolder.
 
   ---------
+
+  \nWhat would you like to do?
+
+  1. Step closer to the bolder.
+  2. Look at the source of the whistling
+  3. Step into forest path
   """
+  # Have a repeatable input to stay in a room until keywords are fufilled
+  loop do
+    options = "\nWhat would you like to do?
+
+    1. Step closer to the bolder.
+    2. Look at the source of the whistling
+    3. Set self on fire"
+
+    print "> "
+    choice = $stdin.gets.chomp.downcase
+
+    val_choice = ("1" || "2" || "3")
+      if choice == "1" || choice.include?("step")
+        puts "You are an inquisitive one aren't you?"
+        puts "Press Enter to continue"
+        gets.chomp
+        require "./hex_gear.rb"
+      elsif choice == "2" || choice.include?("investigate")
+        puts "\nYou take a closer look at the sound of the birds, and notice that is in fact not a Belted Kingfisher, but instead a South Dakotan man whistling at a blackjack table while setting a pile of money on fire. \n\n Neat!"
+      elsif choice == "3" || choice.include?("path" || "east" || "step")
+        puts "\nYou step onto the path and are immediately surprised by the sensation of missing a step on stairs. You're fine, but you were really freaked out for a second and you hear laughter directed at you."
+        puts "Press enter to feel shamed"
+        gets.chomp
+        forest1
+      elsif choice.include?("west" || "south" | "north")
+        puts "\nThe foliage is far too thick, you can't go this way."
+      elsif choice.include?("help" || "look")
+        puts options
+      else choice != val_choice
+        puts "\"#{choice}\"? Again with your inaptitude to literally pick between 3 options."
+    end
+  end
 end
+
+
   puts """
   *******************************'A Fine Adventure'*******************************
 
@@ -190,18 +234,6 @@ puts "\n\n\nWell then, #{user_name} from #{user_country} let's have ourselves an
 puts "When you are ready, push enter"
 $stdin.gets.chomp
 
-# prompt
-# choice = $stdin.gets.chomp
-# while start != 3
-#     puts "\nWhat would you like to do?"
-#     puts "1. Go to sleep"
-#     puts "2. Listen"
-#     puts "3. Stand up"
-#     prompt
-#   if start == 3
-#     forest0
-#     choice = $stdin.gets.chomp
-#   end
-# end
+
 
 start
