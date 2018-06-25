@@ -1,17 +1,40 @@
 #!\cip\rubymineprojects\ruby_the_hard_way
 
-module MathHelpers
-  def expo(a, b)
-    a ** b
+arr1 = ["all", "in", "the", "family"]
+arr2 = ["aardvark", "anteater"]
+class Array
+  def all_start_with_a?(*arr)
+    if arr.to_s.starts_with? == 'a'
+      return true
+    end
   end
 end
 
-class Calculator
-  include MathHelpers
-  def square_root(a)
-    a ** 0.5
-  end
-end
+
+# colors = ['red', 'violet', 'blue']
+# result = []
+# count = 0
+# counter = count += 1
+# colors.each do |color|
+#   count += 1
+#   result.push(color, count)
+# end
+#
+# colors.map {|color|  result.push(color, counter)}
+
+
+# module MathHelpers
+#   def expo(a, b)
+#     a ** b
+#   end
+# end
+#
+# class Calculator
+#   include MathHelpers
+#   def square_root(a)
+#     a ** 0.5
+#   end
+# end
 
 # class Person
 #   def initialize(first_name, last_name)
