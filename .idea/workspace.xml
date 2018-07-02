@@ -9,22 +9,8 @@
       <change afterPath="$PROJECT_DIR$/A_Fine_Adventure/dungeonCompare" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/A_Fine_Adventure/dungeonCrawl.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/AFA_Rooms.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/AFA_Rooms.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/A_Fine_Adventure.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/A_Fine_Adventure2.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/Fightclub.modules.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/Fightclub.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/Fightclub.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/GameLoop.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/GameLoop.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/Things/AFA_Rooms_old.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/Things/AFA_Rooms_old.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/Things/A_Fine_Adventure.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/Things/A_Fine_Adventure.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/Things/A_Fine_Adventure2.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/Things/A_Fine_Adventure2.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/Txt_filter.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/Txt_filter.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/codequizzes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/codequizzes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/dungeonCompare" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/dungeonCompare" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/dungeonCrawl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/dungeonCrawl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/hex_gear.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/hex_gear.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/oopract.rb" beforeDir="false" afterPath="$PROJECT_DIR$/A_Fine_Adventure/oopract.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A_Fine_Adventure/rng.rb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +27,7 @@
     <SUITE FILE_PATH="coverage/Ruby_the_hard_way@codequizzes.rcov" NAME="codequizzes Coverage Results" MODIFIED="1530345850698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/A_Fine_Adventure" MODULE_NAME="Ruby_the_hard_way" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="d20.Gen.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/d20.Gen.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,8 +50,8 @@
       <file leaf-file-name="CreatableModule.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/CreatableModule.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="1327">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
             </state>
           </provider>
         </entry>
@@ -137,31 +123,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Ruby_the_hard_way" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ruby_the_hard_way" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ruby_the_hard_way" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ruby_the_hard_way" type="462c0819:PsiDirectoryNode" />
-              <item name="A_Fine_Adventure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ruby_the_hard_way" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ruby_the_hard_way" type="462c0819:PsiDirectoryNode" />
-              <item name="A_Fine_Adventure" type="462c0819:PsiDirectoryNode" />
-              <item name="d20.Gen" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -282,14 +244,17 @@
       <workItem from="1529821797007" duration="18247000" />
       <workItem from="1530344629518" duration="3520000" />
       <workItem from="1530348517604" duration="8299000" />
+      <workItem from="1530426071704" duration="592000" />
+      <workItem from="1530512979137" duration="683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53371000" />
+    <option name="totallyTimeSpent" value="54646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6695312" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -327,6 +292,52 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/d20.Gen.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/CharacterClasses.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/Combat.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/DiceEmulator.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/CreatableModule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/d20.Gen.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/CharacterClasses.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/Combat.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/DiceEmulator.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/CreatableModule.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/codequizzes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -492,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/A_Fine_Adventure/d20.Gen/CreatableModule.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="118" lean-forward="true" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="1327">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
         </state>
       </provider>
     </entry>
